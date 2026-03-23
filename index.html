@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YourLibrary.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+
+    <div class="part1">
+
+        <a href="#"class="page-title"><h1 >Your<span>Library</span>.</h1></a>
+
+        <div id="search-bar" class="hide860">
+            <input type="text" placeholder="What do you want to read today?">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="buttons">
+            <i class="bi bi-person icon hide375"></i>
+            <i class="bi bi-heart icon hide375"></i>
+            <div class="icon icon0 hide375">
+                <i class="bi bi-cart"></i>
+                <p id="notification">0</p>
+            </div>
+            <i class="bi bi-list icon"></i>
+            <i class="fa-solid fa-bars icon bars-btn"></i>
+        </div>
+    </div>
+
+
+    <div class="part2 first">
+        <button class="nav-btn">BESTSELLER <i class="fa-solid fa-chevron-down fa-xs"></i></button>
+        <button class="nav-btn">TRENDING <i class="fa-solid fa-chevron-down fa-xs"></i></button>
+        <button class="nav-btn">DISCOUNT PACK <i class="fa-solid fa-chevron-down fa-xs"></i></button>
+        <button class="nav-btn">E-BOOKS <i class="fa-solid fa-chevron-down fa-xs"></i></button>
+        <button class="nav-btn">AUDIO-BOOKS <i class="fa-solid fa-chevron-down fa-xs"></i></button>
+        <button class="nav-btn">ACCESORIES <i class="fa-solid fa-chevron-down fa-xs"></i></button>
+    </div>
+
+
+</header>
+
+<main class="grid-container">
+
+                                        <!-- ASIDE LIST -->
+
+    <div class="aside-list grid-item">
+
+        <div class="list-box category">
+            <h4>Category</h4>
+
+            <ul>
+                <li>Romance</li>
+                <li>Horror</li>
+                <li>Teens</li>
+                <li>Literature</li>
+                <li>History</li>
+                <li>Politics</li>
+                <li>Science Fiction</li>
+                <li>Entertainment</li>
+                <li>Fantasy</li>
+            </ul>
+                
+<br>
+            <a href="#"><small>More...</small></a>
+        </div>
+
+         <div class="list-box publisher">
+            <h4>Publishing house</h4>
+
+            <ul>
+                <li>HarperCollins</li>
+                <li>Bertelsmann</li>
+                <li>Hachette Livre</li>
+                <li>Hachette Book Group</li>
+                <li>Mondadori</li>
+                <li>Gydendal</li>
+                <li>Bonnie Books</li>
+                <li>Simon & Schuster</li>
+                <li>Anagrama</li>
+            </ul>
+<br>
+            <a href="#"><small>More...</small></a>
+        </div>
+
+        <div class="list-box author">
+            <h4>Author</h4>
+
+            <ul>
+                <li>Mark Twain</li>
+                <li>J.K. Rowling</li>
+                <li>Victor Hugo</li>
+                <li>Kazuo Ishiguro</li>
+                <li>Stephen King</li>
+                <li>Dante Alighieri</li>
+                <li>Lev Tolstoi</li>
+                <li>Haryki Murakami</li>
+                <li>Gabriel García Márquez</li>
+            </ul>
+                
+<br>
+            <a href="#"><small>More...</small></a>
+        </div>
+
+        <div class="list-box language">
+            <h4>Language</h4>
+
+            <ul>
+                <li>English</li>
+                <li>French</li>
+                <li>Spanish</li>
+                <li>German</li>
+                <li>Japanese</li>
+                <li>Italian</li>
+                <li>Russian</li>
+                <li>Portuguese</li>
+                <li>Dutch</li>
+                <li>Chinese (Mandarin)</li>
+            </ul>
+                
+<br>
+            <a href="#"><small>More...</small></a>
+        </div>
+
+        <div class="list-box year">
+            <h4>Publication year</h4>
+
+            <ul>
+                <li>2026</li>
+                <li>2025</li>
+                <li>2024</li>
+                <li>2023</li>
+                <li>2022</li>
+            </ul>
+<br>
+            <a href="#"><small>More...</small></a>
+        </div>
+
+    </div>
+
+                                        <!-- BOOKS -->
+
+    <div class="book-grid grid-item">
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Moon And Stars</h3>
+                <h4 class="book-author">Jeenna Warren</h4>
+                <p class="book-price">$ 8.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+            <div class="book-img img1"></div>
+            <h3 class="book-name hide930">The Moon And Stars</h3>
+            <h4 class="book-author hide930">Jeenna Warren</h4>
+            <p class="book-price hide930">$ 8.99</p>
+
+            <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+            </div>
+
+        </div>
+
+         <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Soul</h3>
+                <h4 class="book-author">Olivia Wilson</h4>
+                <p class="book-price">$ 9.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img2"></div>
+             <h3 class="book-name hide930">Soul</h3>
+             <h4 class="book-author hide930">Olivia Wilson</h4>
+             <p class="book-price hide930">$ 9.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Lost</h3>
+                <h4 class="book-author">Matt Zhang</h4>
+                <p class="book-price">$ 11.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img3"></div>
+             <h3 class="book-name hide930">The Lost</h3>
+             <h4 class="book-author hide930">Matt Zhang</h4>
+             <p class="book-price hide930">$ 11.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Past Is Rising</h3>
+                <h4 class="book-author">Kathryn Bywaters</h4>
+                <p class="book-price">$ 14.77</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img4"></div>
+             <h3 class="book-name hide930">The Past Is Rising</h3>
+             <h4 class="book-author hide930">Kathryn Bywaters</h4>
+             <p class="book-price hide930">$ 14.77</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">A Teaspoon Of Earth And Sea</h3>
+                <h4 class="book-author">Dina Nayeri</h4>
+                <p class="book-price">$ 5.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img5"></div>
+             <h3 class="book-name hide930">A Teaspoon Of Earth And Sea</h3>
+             <h4 class="book-author hide930">Dina Nayeri</h4>
+             <p class="book-price hide930">$ 5.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">James And The Giant Peach</h3>
+                <h4 class="book-author">Ronald Dahl</h4>
+                <p class="book-price">$ 6.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img6"></div>
+             <h3 class="book-name hide930">James And The Giant Peach</h3>
+             <h4 class="book-author hide930">Ronald Dahl</h4>
+             <p class="book-price hide930">$ 6.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Edge Of The Unknown</h3>
+                <h4 class="book-author">Andrew Hamburg</h4>
+                <p class="book-price">$ 5.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img7"></div>
+             <h3 class="book-name hide930">The Edge Of The Unknown</h3>
+             <h4 class="book-author hide930">Andrew Hamburg</h4>
+             <p class="book-price hide930">$ 5.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Honestly Dearest, You're Dead</h3>
+                <h4 class="book-author">Jack Fredrickson</h4>
+                <p class="book-price">$ 7.90</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img8"></div>
+             <h3 class="book-name hide930">Honestly Dearest, You're Dead</h3>
+             <h4 class="book-author hide930">Jack Fredrickson</h4>
+             <p class="book-price hide930">$ 7.90</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name size930">California. Romantic & Beautiful</h3>
+                <h4 class="book-author">George Wharton James</h4>
+                <p class="book-price">$ 9.95</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img9"></div>
+             <h3 class="book-name hide930">California. Romantic & Beautiful</h3>
+             <h4 class="book-author hide930">George Wharton James</h4>
+             <p class="book-price hide930">$ 9.95</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Stone Hearts</h3>
+                <h4 class="book-author">C.B. Samet</h4>
+                <p class="book-price">$ 14.95</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img10"></div>
+             <h3 class="book-name hide930">Stone Hearts</h3>
+             <h4 class="book-author hide930">C.B. Samet</h4>
+             <p class="book-price hide930">$ 14.95</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Hidden In Frosted Flams</h3>
+                <h4 class="book-author">Jayme Voogi</h4>
+                <p class="book-price">$ 3.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img11"></div>
+             <h3 class="book-name hide930">Hidden In Frosted Flams</h3>
+             <h4 class="book-author hide930">Jayme Voogi</h4>
+             <p class="book-price hide930">$ 3.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">A Place Called Perfect</h3>
+                <h4 class="book-author">Helena Duggan</h4>
+                <p class="book-price">$ 11.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img12"></div>
+             <h3 class="book-name hide930">A Place Called Perfect</h3>
+             <h4 class="book-author hide930">Helena Duggan</h4>
+             <p class="book-price hide930">$ 11.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Really Good, Actually</h3>
+                <h4 class="book-author">Monica Heisey</h4>
+                <p class="book-price">$ 13.49</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img13"></div>
+             <h3 class="book-name hide930">Really Good, Actually</h3>
+             <h4 class="book-author hide930">Monica Heisey</h4>
+             <p class="book-price hide930">$ 13.49</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Alone. A True Story</h3>
+                <h4 class="book-author">Morgan Maxwell</h4>
+                <p class="book-price">$ 17.64</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img14"></div>
+             <h3 class="book-name hide930">Alone. A True Story</h3>
+             <h4 class="book-author hide930">Morgan Maxwell</h4>
+             <p class="book-price hide930">$ 17.64</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Design Of Books</h3>
+                <h4 class="book-author">Debbie Barne</h4>
+                <p class="book-price">$ 19.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img15"></div>
+             <h3 class="book-name hide930">The Design Of Books</h3>
+             <h4 class="book-author hide930">Debbie Barne</h4>
+             <p class="book-price hide930">$ 19.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Sugar Run</h3>
+                <h4 class="book-author">Mesha Maren</h4>
+                <p class="book-price">$ 10.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img16"></div>
+             <h3 class="book-name hide930">Sugar Run</h3>
+             <h4 class="book-author hide930">Mesha Maren</h4>
+             <p class="book-price hide930">$ 10.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">How To Think Biggeer & Better</h3>
+                <h4 class="book-author">Keevin Lee</h4>
+                <p class="book-price">$ 12.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+            <div class="book-img img17"></div>
+             <h3 class="book-name hide930">How To Think Biggeer & Better</h3>
+             <h4 class="book-author hide930">Keevin Lee</h4>
+             <p class="book-price hide930">$ 12.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Home</h3>
+                <h4 class="book-author">Lisa Allen-Agostini</h4>
+                <p class="book-price">$ 4.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img18"></div>
+             <h3 class="book-name hide930">Home</h3>
+             <h4 class="book-author hide930">Lisa Allen-Agostini</h4>
+             <p class="book-price hide930">$ 4.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Goldfinch</h3>
+                <h4 class="book-author">Donaa Tartt</h4>
+                <p class="book-price">$ 13.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img19"></div>
+             <h3 class="book-name hide930">The Goldfinch</h3>
+             <h4 class="book-author hide930">Donaa Tartt</h4>
+             <p class="book-price hide930">$ 13.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Life Of Pi</h3>
+                <h4 class="book-author">Yann Martel</h4>
+                <p class="book-price">$ 18.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img20"></div>
+             <h3 class="book-name hide930">Life Of Pi</h3>
+             <h4 class="book-author hide930">Yann Martel</h4>
+             <p class="book-price hide930">$ 18.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">Shadow Legacy</h3>
+                <h4 class="book-author">Colleen Mitchell</h4>
+                <p class="book-price">$ 15.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img21"></div>
+             <h3 class="book-name hide930">Shadow Legacy</h3>
+             <h4 class="book-author hide930">Colleen Mitchell</h4>
+             <p class="book-price hide930">$ 15.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Green Brain</h3>
+                <h4 class="book-author">Frank Herbert</h4>
+                <p class="book-price">$ 12.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img22"></div>
+             <h3 class="book-name hide930">The Green Brain</h3>
+             <h4 class="book-author hide930">Frank Herbert</h4>
+             <p class="book-price hide930">$ 12.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Rebirth Of You</h3>
+                <h4 class="book-author">Megan Austin</h4>
+                <p class="book-price">$ 9.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img23"></div>
+             <h3 class="book-name hide930">The Rebirth Of You</h3>
+             <h4 class="book-author hide930">Megan Austin</h4>
+             <p class="book-price hide930">$ 9.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+                
+                <h3 class="book-name">The Night</h3>
+                <h4 class="book-author">Mara Franzis</h4>
+                <p class="book-price">$ 8.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img24"></div>
+             <h3 class="book-name hide930">The Night</h3>
+             <h4 class="book-author hide930">Mara Franzis</h4>
+             <p class="book-price hide930">$ 8.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+        <div class="book-box">
+
+            <div id="display930">
+
+                <h3 class="book-name">A Mollion To One</h3>
+                <h4 class="book-author">Tony Gaggioli</h4>
+                <p class="book-price">$ 18.99</p>
+
+                <div class="book-btn">
+                    <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                    <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+                </div>
+
+            </div>
+
+             <div class="book-img img25"></div>
+             <h3 class="book-name hide930">A Mollion To One</h3>
+             <h4 class="book-author hide930">Tony Gaggioli</h4>
+             <p class="book-price hide930">$ 18.99</p>
+
+             <div class="book-btn hide930">
+                 <i class="fa-regular fa-heart fa-xl fave-btn"></i>
+                 <i class="fa-solid fa-cart-arrow-down fa-xl add-2-cart"></i>
+             </div>
+
+        </div>
+
+    </div>
+
+
+                                        <!-- NEXT PAGE BOX -->
+
+
+    <div class="next-page-box">
+        <ul class="page-list">
+            <li class="previous-page"><i class="fa-solid fa-angles-left"></i></li>
+            <li class="page-active">1</li>
+            <li class="page-nr">2</li>
+            <li class="page-nr">3</li>
+            <li class="page-nr">4</li>
+            <li class="page-nr">5</li>
+            <li class="page-nr">6</li>
+            <li class="page-nr">7</li>
+            <li class="page-nr page-none">8</li>
+            <li class="page-nr page-none">9</li>
+            <li class="page-nr page-none">10</li>
+            <li class="next-page"><i class="fa-solid fa-angles-right"></i></li>
+        </ul>
+    </div>
+
+</main>
+
+                                        <!-- ---FOOTER--- -->
+
+
+<div class="footer">
+
+    <div class="up-footer footer-element">
+
+        <div class="element1 page-logo">
+            <h2 class="pointer">Your<span>Library</span>.</h2>
+            <br>
+            <i class="fa-brands fa-facebook fa-lg pointer"></i>
+            <i class="fa-brands fa-instagram fa-lg pointer"></i>
+        </div>
+
+        <div class="element1 website">
+            <h4>WEBSITE</h4>
+            <a href="">Gift Card</a>
+            <a href="">Wishlist</a>
+            <a href="">Deals & Discounts</a>
+            <a href="">Reviews</a>
+            <a href="">Bestselleers</a>
+            <a href="">Accesories</a>
+            <a href="">Audio-Books</a>
+            <a href="">E-Books</a>
+        </div>
+
+        <div class="element1 help">
+            <h4>HELP</h4>
+            <a href="">Order Status</a>
+            <a href="">Shipping</a>
+            <a href="">Return Policy</a>
+            <a href="">Support Center</a>
+            <a href="">Payment Method</a>
+            <a href="">FAQs</a>
+        </div>
+
+        <div class="element1 about">
+            <h4>ABOUT US</h4>
+            <a href="">Company</a>
+            <a href="">Sustenability</a>
+            <a href="">Internet Archive</a>
+            <a href="">Blog</a>
+            <a href="">Press & Media</a>
+            <a href="">Careers</a>
+        </div>
+
+    </div>
+
+    <div class="bottom-footer footer-element">
+        <p><small>Terms</small> | <small>Privacy</small> | <small>Copyright</small> | <small>Legal</small></p>
+        <p><small>&copy; 2026 YourLibrary. All Rights Reserved.</small></p>
+    </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
