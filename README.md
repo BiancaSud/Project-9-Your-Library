@@ -2,9 +2,16 @@
 
 An e-commerce bookstore interface with faceted filtering and a paginated product grid, built with HTML and CSS.
 
-**Live site:** https://your-library-book-store.netlify.app/
+**Live site:** https://your-library-book-store.netlify.app/  /  
+https://biancasud.github.io/Project-9-Your-Library/
 
-![Your Library](screenshot.png)
+![Your Library]
+<img width="1893" height="944" alt="image" src="https://github.com/user-attachments/assets/765ad188-04b4-4920-a7e9-567379a8a8f7" />
+<img width="1893" height="945" alt="image" src="https://github.com/user-attachments/assets/e931ee3f-b8e9-48b8-bd72-13b5a69141dc" />
+<img width="403" height="825" alt="image" src="https://github.com/user-attachments/assets/8e7fe360-e701-4bc4-884c-44910f6a6443" />
+
+
+
 
 ## About
 
